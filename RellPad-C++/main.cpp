@@ -3,6 +3,7 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
+#include <QFile>
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +18,11 @@ int main(int argc, char *argv[])
             break;
         }
     }
+
     MainWindow w;
+
+    w.open_With_File(argv[1]);
+
     w.show();
     return a.exec();
 }

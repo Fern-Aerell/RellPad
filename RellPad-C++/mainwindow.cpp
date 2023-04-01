@@ -31,6 +31,36 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::open_With_File(QString file_location)
+{
+    //Cek Apakah file lokasi kosong atau tidak
+    if(!file_location.isEmpty())
+    {
+        //Memasukkan lokasi file ke object file
+        QFile file(file_location);
+
+        //Buka file dan cek apakah file bisa dibuka apa tidak?
+        if(!file.open(QFile::ReadOnly | QFile::Text)) {
+            QMessageBox::warning(this, "..", "File can't open.");
+            return;
+        }
+
+        //Menaruh file_location ke variable global
+        file_path = file_location;
+
+        //Membaca file
+        QTextStream in (&file);
+        QString text = in.readAll();
+
+        //Set text pada textedit
+        ui->textEdit->setText(text);
+
+        //Merubah Window Title Menjadi Nama File.extension
+        QFileInfo file_info(file_location);
+        setWindowTitle(file_info.fileName() + " - RellPad");
+    }
+}
+
 
 ///File Features
 ///

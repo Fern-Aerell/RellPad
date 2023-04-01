@@ -15,6 +15,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void open_With_File(QString file_location);
+
 private slots:
     void on_actionNew_triggered();
 
