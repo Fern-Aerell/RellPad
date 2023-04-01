@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->statusbar->addPermanentWidget(ui->label_dummy);
     ui->statusbar->addPermanentWidget(ui->line_col_label);
     ui->statusbar->addPermanentWidget(ui->zoom_label);
+    ui->zoom_label->setText("");
     updateLineAndColum();
 }
 
@@ -285,7 +286,7 @@ void MainWindow::updateLineAndColum()
     ui->actionDelete->setEnabled(cursorPosition.hasSelection());
 
     //Apkah bisa di selectAll?
-    ui->actionSelect_All->setEnabled(cursorPosition.hasSelection());
+    ui->actionSelect_All->setEnabled(colum > 1 || line > 1);
 
     //Apkah bisa di cut?
     ui->actionCut->setEnabled(cursorPosition.hasSelection());
@@ -364,7 +365,7 @@ void MainWindow::on_actionFind_triggered()
 //Github
 void MainWindow::on_actionGithub_triggered()
 {
-
+    QDesktopServices::openUrl(QUrl("https://github.com/AerellDev/RellPad"));
 }
 
 //Youtube
