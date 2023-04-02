@@ -1,0 +1,12 @@
+C:\Users\Fern Aerell\source\repos\RellPad-C#\bin\Debug\RellPad-C#.exe.config
+C:\Users\Fern Aerell\source\repos\RellPad-C#\bin\Debug\RellPad-C#.exe
+C:\Users\Fern Aerell\source\repos\RellPad-C#\bin\Debug\RellPad-C#.pdb
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.csproj.AssemblyReference.cache
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad_C_.Properties.Resources.resources
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.csproj.GenerateResource.cache
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.csproj.CoreCompileInputs.cache
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.exe
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad-C#.pdb
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad_C_.RellPad.resources
+C:\Users\Fern Aerell\source\repos\RellPad-C#\obj\Debug\RellPad_C_.AboutDialog.resources

@@ -24,14 +24,7 @@ Note : Dikarenakan program masih dalam tahap pengembangan, maka maaf jika masih 
 2. Jalankan Relpad Installer seperti menginstal program biasa.
 3. Selamat Menggunakan.
 
-## Cara Clone Project
-
-1. Download Qt Creator : [Disini](https://www.qt.io/download-open-source)
-2. Clone Project Github 
-```
-git clone https://github.com/AerellDev/RellPad.git
-```
-3. Dan buka folder ```RellPad-C++``` dengan Qt Creator sebagai project
+### Cara Clone Project : [Lihat disini](https://github.com/AerellDev/RellPad/blob/master/Doc/Cara%20Clone%20Project.md)
 
 ### Changelog : [Lihat disini](https://github.com/AerellDev/RellPad/blob/master/CHANGELOG.md)
 
