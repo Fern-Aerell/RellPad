@@ -15,7 +15,9 @@ Note : Dikarenakan program masih dalam tahap pengembangan, maka maaf jika masih 
 
 ## Teknologi Yang Di Gunakan
 - C++ (Bahasa Pemograman)
+- C# (Bahasa Pemograman)
 - Qt Creator (IDE)
+- Microsoft Visual Studio (IDE)
 - Visual Studio Code (Text Editor)
 - Inno Setup Compiler (Setup Compiler)
 
