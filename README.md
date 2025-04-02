@@ -22,7 +22,7 @@ Note: Since the program is still in development, we apologize if some features a
 2. Run the Rellpad Installer just like installing any other program.
 3. Enjoy using it.
 
-### How to Clone the Project: [See here](https://github.com/AerellDev/RellPad/blob/master/Doc/Cara%20Clone%20Project.md)
+### How to Clone the Project: [See here](https://github.com/AerellDev/RellPad/blob/master/Doc/How%20To%20Clone%20Project.md)
 
 ### Changelog: [See here](https://github.com/AerellDev/RellPad/blob/master/CHANGELOG.md)
 
