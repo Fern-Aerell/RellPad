@@ -2,17 +2,17 @@
 
 # Latest Version 1.0.0 (Indev) - 02/04/2023
 
-## Fitur
+## Features
 - New File
 - Open File
 - Save File
 - Save As File
 - New Window
-- File Open With
-- Undo dan Redo
-- Cut, Copy, Paste dan Delete
+- Open File With
+- Undo and Redo
+- Cut, Copy, Paste, and Delete
 - Select All
 - About
 
-## Fix Bug
-- Memperbaiki bug dimana Rellpad tidak bisa membaca file yang di open with dengan nya.
+## Bug Fixes
+- Fixed a bug where RellPad could not read files opened with it.
